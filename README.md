@@ -36,14 +36,13 @@ I work with machine learning, NLP, and transformer models, and I enjoy turning r
 
 These repositories represent the kind of work I like to do.
 
+**Selected Projects**
+
 | Project | Description | Tech |
 |--------|-------------|------|
-| [Cross-lingual text classification] | Fine-tuning multilingual transformers for Danish/English transfer | Python, PyTorch, HuggingFace |
-| [LLM / RAG workflow] | Using LLMs with structured data and retrieval | Python, LLM APIs |
-| [Reinforcement learning project] | Experiments with RL and control | Python, NumPy |
-| [NLP pipeline project] | Text preprocessing and NLP workflows | Python |
-
----
+| [**Tetris RL Agent**](https://github.com/CarlSvejstrup/Tetris-DQN-NEAT) | Trained an autonomous agent to play Tetris using DQN & NEAT algorithms | Python, PyTorch, NEAT |
+| [**LLM Statistical Evaluation**](https://github.com/CarlSvejstrup/02445---LLMs-Project) | Analysis of Large Language Model performance on structured tasks | Python, Jupyter, Scipy |
+| [**VGG16 Image Classifier**](https://github.com/CarlSvejstrup/VGG16_CNN) | Implementation of the VGG16 CNN architecture for image classification | Python, TensorFlow/Keras |
 
 ## Tech
 
