@@ -3,6 +3,7 @@
 I am a Data Science student at the Technical University of Denmark (DTU), focusing on Machine Learning and Statistical Analysis. I enjoy taking complex data problems and finding practical, working solutions.
 
 **Current Focus**
+* **Audio LLMs:** Fine-tuning Qwen2-Audio with ALLD alignment for descriptive speech quality assessment (bachelor project).
 * **Machine Learning:** Computer Vision, Reinforcement Learning, and Bayesian Methods.
 * **LLMs:** Evaluating and implementing open-source models (Llama 2, BERT).
 * **Data Analysis:** Statistical evaluation and predictive modeling.
@@ -18,6 +19,7 @@ I am a Data Science student at the Technical University of Denmark (DTU), focusi
 
 | Project | Description | Tech |
 |--------|-------------|------|
+| [**Speech Quality Assessment**](https://github.com/DavidLindahl/automatic-speech-assessment) | Bachelor project: fine-tuning Qwen2-Audio with ALLD for descriptive, time-localized speech quality assessment on NISQA-SIM mixes | Python, PyTorch, HuggingFace |
 | [**Cross-Lingual Classifier**](https://github.com/DavidLindahl/danish-edu-llm-classifier) | Fine-tuning multilingual transformers (BERT/XLM) for Danish-English transfer | Python, PyTorch, HuggingFace |
 | [**Bayesian Optimization**](https://github.com/Badecar/bayesian-optimization/tree/main) | Implementation of Gaussian Processes and Acquisition Functions for optimization | Python, NumPy, Scipy |
 | [**Tetris RL Agent**](https://github.com/CarlSvejstrup/Tetris-DQN-NEAT) | Trained an autonomous agent to play Tetris using DQN & NEAT algorithms | Python, PyTorch, NEAT |
