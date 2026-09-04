@@ -1,17 +1,30 @@
 ### Hi, I'm Carl.
 
-I am a Data Science student at the Technical University of Denmark (DTU), focusing on Machine Learning and Statistical Analysis. I enjoy taking complex data problems and finding practical, working solutions.
+I am a Data Science student at the Technical University of Denmark (DTU), focusing on Machine Learning and Statistical Analysis. Alongside my studies I build agentic AI systems in production: LLM agents, skills, MCP servers and the workflow infrastructure around them. I enjoy taking complex data problems and finding practical, working solutions.
 
 **Current Focus**
+* **Agentic Engineering:** Designing and shipping agent systems for a marketing agency — a plugin marketplace of skills, custom MCP servers on Railway, an owned data substrate, and human-in-the-loop write gating on every external action.
 * **Audio LLMs:** Fine-tuning Qwen2-Audio with ALLD alignment for descriptive speech quality assessment (bachelor project).
 * **Machine Learning:** Computer Vision, Reinforcement Learning, and Bayesian Methods.
-* **LLMs:** Evaluating and implementing open-source models (Llama 2, BERT).
+* **LLMs:** Evaluating and implementing open-source models, plus agent evaluation and tool-use reliability.
 * **Data Analysis:** Statistical evaluation and predictive modeling.
 
 **Toolbox**
-* **Languages:** Python, R, SQL
+* **Languages:** Python, TypeScript, R, SQL
+* **Agentic:** Claude Code, MCP (Model Context Protocol), agent skills/plugins, tool-use design, hook-based guardrails
 * **Libraries:** PyTorch, TensorFlow, Scikit-learn, Pandas
-* **Tools:** Jupyter, Git, Docker
+* **Infra:** Supabase, Railway, Docker, Git, Jupyter
+
+---
+
+**Agentic Engineering**
+
+Production agent work: an AI operating layer for a Copenhagen marketing agency, rolled out across multiple teams.
+
+* **Skills as the unit of work.** A git-backed plugin marketplace is the single source of truth — six plugins covering Google Ads lifecycle, sales follow-up, AI-visibility/SEO and report generation. Skills are versioned, reviewed and installed, never pasted into a chat window.
+* **Custom MCP servers.** Self-hosted MCP servers on Railway expose owned data and curated knowledge to the agent surface, instead of relying only on vendor connectors.
+* **Write safety by construction.** Every external write (ad accounts, Drive, email, Slack) is human-in-the-loop, enforced by PreToolUse hooks rather than by prompt instructions — a separate write-only agent is the sole mutation path.
+* **Token economics as a design constraint.** Multi-MB API payloads are routed through dedicated read-only sub-agents so the main context never ingests them.
 
 ---
 
