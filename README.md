@@ -3,7 +3,7 @@
 I am a Data Science student at the Technical University of Denmark (DTU), focusing on Machine Learning and Statistical Analysis. Alongside my studies I build agentic AI systems in production: LLM agents, skills, MCP servers and the workflow infrastructure around them. I enjoy taking complex data problems and finding practical, working solutions.
 
 **Current Focus**
-* **Agentic Engineering:** Designing and shipping agent systems for a marketing agency — a plugin marketplace of skills, custom MCP servers on Railway, an owned data substrate, and human-in-the-loop write gating on every external action.
+* **Agentic Engineering:** Designing and shipping agent systems for a marketing agency. 
 * **Audio LLMs:** Fine-tuning Qwen2-Audio with ALLD alignment for descriptive speech quality assessment (bachelor project).
 * **Machine Learning:** Computer Vision, Reinforcement Learning, and Bayesian Methods.
 * **LLMs:** Evaluating and implementing open-source models, plus agent evaluation and tool-use reliability.
