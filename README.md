@@ -17,16 +17,6 @@ I am a Data Science student at the Technical University of Denmark (DTU), focusi
 
 ---
 
-**Agentic Engineering**
-
-Production agent work: an AI operating layer for a Copenhagen marketing agency, rolled out across multiple teams.
-
-* **Skills as the unit of work.** A git-backed plugin marketplace is the single source of truth — six plugins covering Google Ads lifecycle, sales follow-up, AI-visibility/SEO and report generation. Skills are versioned, reviewed and installed, never pasted into a chat window.
-* **Custom MCP servers.** Self-hosted MCP servers on Railway expose owned data and curated knowledge to the agent surface, instead of relying only on vendor connectors.
-* **Write safety by construction.** Every external write (ad accounts, Drive, email, Slack) is human-in-the-loop, enforced by PreToolUse hooks rather than by prompt instructions — a separate write-only agent is the sole mutation path.
-* **Token economics as a design constraint.** Multi-MB API payloads are routed through dedicated read-only sub-agents so the main context never ingests them.
-
----
 
 **Selected Projects**
 
